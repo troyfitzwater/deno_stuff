@@ -1,4 +1,4 @@
-import books from "../infrastructure/inMemoryBooksData.ts";
+import books from "../infrastructure/inMemoryBooksData";
 
 const getBooks = ({ response }: { response: any }) => {
     response.body = books;
